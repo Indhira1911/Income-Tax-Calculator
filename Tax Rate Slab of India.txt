@@ -1,0 +1,6 @@
+Up to Rs. 2.5 lakhs=No Tax
+Above Rs. 2.5 lakhs to Rs. 5 lakhs=5% + 4% cess
+Above Rs. 5 lakhs to Rs. 10 lakhs=20% + 4% cess
+Above Rs. 10 lakhs to Rs. 50 lakhs=30% + 4% cess
+Above Rs. 50 lakhs to Rs. 1 crore=30% + 10% surcharge + 4% cess
+Above Rs. 1 crore=30% +15% surcharge + 4% cess
