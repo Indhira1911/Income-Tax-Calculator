@@ -14,13 +14,17 @@ if(an_income<=250000):        # If your income is more than Rs.250000
     print("You don't have to pay any tax")           # Then you don't have to pay tax
 elif(an_income>=250000 and an_income<=500000):       # If your income is more than 250000 and less than 500000
     print("You have to pay 5% + 4% cess\nYou have pay Rs.",an_income*9/100,"of your annual income")   # Then you have to pay 5% + 4% cess 
+    print("Your income after deducting the tax is Rs.:", an_income-(an_income*9/100))
 elif(an_income>=500000 and an_income<=1000000):      # If your income is more than 500000 and less than 1000000
     print("You have to pay 20% + 4% cess\nYou have pay Rs.",an_income*24/100,"of your annual income") # Then you have to pay 20% + 4% cess
+    print("Your income after deducting the tax is Rs.:", an_income-(an_income*24/100))
 elif(an_income>=1000000 and an_income<=5000000):     # If your income is more than 1000000 and less than 5000000
     print("You have to pay 30% + 4% cess\nYou have pay Rs.",an_income*34/100,"of your annual income") # Then you have to pay 30% + 4% cess
+    print("Your income after deducting the tax is Rs.:", an_income-(an_income*34/100))
 elif(an_income>=5000000 and an_income<=10000000):    # If your income is more than 5000000 and less than 10000000
     print("You have to pay 30% + 10% surcharge + 4% cess\nYou have pay Rs.",an_income*44/100,"of your annual income")#Then you have to pay 30% + 10% surcharge + 4% cess
+    print("Your income after deducting the tax is Rs.:", an_income-(an_income*44/100))
 elif(an_income>=10000000): # If your income is more than 10000000
     print("You have to pay 30% + 15% surcharge + 4% cess\nYou have pay Rs.",an_income*49/100,"of your annual income")#Then you have to pay 30% + 10% surcharge + 4% cess
-  
+    print("Your income after deducting the tax is Rs.:", an_income-(an_income*49/100))
 # Code by Shubham Sharma , Freelancer Developer
